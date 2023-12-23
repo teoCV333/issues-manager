@@ -1,0 +1,12 @@
+.button-session {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 20px 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url("./user.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
