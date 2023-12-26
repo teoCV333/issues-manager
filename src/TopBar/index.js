@@ -1,17 +1,17 @@
-import { ButtonSession } from './ButtonSession';
-import { CurrentDate } from './CurrentDate';
 import './TopBar.css';
-import { UserName } from './UserName';
+import { CurrentDate } from './CurrentDate';
+import { UserName } from "./UserName";
+import { ButtonSession } from "./ButtonSession";
 
 function TopBar() {
     return (
       <div class="top-bar">
         <div className="left-section">
-            <CurrentDate/>
+          <CurrentDate />
         </div>
         <div className="right-section">
-            <UserName/>
-            <ButtonSession/>
+          <UserName />
+          <ButtonSession />
         </div>
       </div>
     );

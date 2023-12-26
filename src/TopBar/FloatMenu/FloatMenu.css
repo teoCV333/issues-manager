@@ -1,0 +1,32 @@
+.float-session-menu {
+    position: absolute;
+    left: 85%;
+    padding: 0px;
+    display: flex;
+    width: -webkit-fill-available;
+    justify-content: flex-start;
+    border-radius: 0px 0px 0px 10px;
+    background-color: gray;
+}
+
+.float-session-menu ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+}
+
+li.session-menu-item {
+    display: list-item;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 2px;
+    height: 35%;
+    text-align: center;
+    cursor: pointer;
+}
+
+li.session-menu-item:hover {
+    background-color: #333;
+}

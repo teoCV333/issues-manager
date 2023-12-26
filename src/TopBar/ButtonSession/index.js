@@ -1,7 +1,19 @@
+import React from 'react';
+import { IssuestManagerContext } from '../../IssuestManagerContext';
 import './ButtonSession.css';
 
 function ButtonSession() {
-    return <button className="button-session"></button>;
+   
+    const { setOpenFloatMenu } = React.useContext(IssuestManagerContext);
+    
+    return (
+      <button
+        className="button-session"
+        onClick={() => {
+          setOpenFloatMenu((state) => !state);
+        }}
+      ></button>
+    );
 }
 
 export { ButtonSession };
